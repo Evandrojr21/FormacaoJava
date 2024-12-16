@@ -64,7 +64,7 @@ public class ContaTerminal {
       nomeCliente = scanner.nextLine();
 
       if (nomeCliente.matches(".*\\d.*")) {
-        System.out.println("Erro: O nome não pode conter números. Tente novamente.");
+        System.out.println("Erro: O nome não pode conter números. Tente novamente");
       } else {
         break;
       }
